@@ -1,6 +1,5 @@
 from khaiii import KhaiiiApi
 import pandas as pd
-from pytorch_pretrained_bert.tokenization_morp import BertTokenizer
 
 # 판다스로 훈련셋과 테스트셋 데이터 로드
 train1 = pd.read_csv("./ratings_spacing_train.txt", sep='\t',header=None)
