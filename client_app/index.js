@@ -18,14 +18,7 @@ const routing = (
     </BrowserRouter>
 )
 firebase.initializeApp({
-    apiKey: "AIzaSyCOeFH-Yz5SHdkn39-VB5bUGjZnah5JYTQ",
-    authDomain: "senti-937c7.firebaseapp.com",
-    databaseURL: "https://senti-937c7.firebaseio.com",
-    projectId: "senti-937c7",
-    storageBucket: "senti-937c7.appspot.com",
-    messagingSenderId: "521652480932",
-    appId: "1:521652480932:web:9814aebc68a6b3a522ef31",
-    measurementId: "G-32K8Z9E7JQ"
+    enter_your_key
 });
 ReactDOM.render(routing, document.getElementById('root'));
 
