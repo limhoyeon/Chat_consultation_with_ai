@@ -14,15 +14,13 @@ import time
 import datetime
 from pytorch_pretrained_bert.tokenization_morp import BertTokenizer
 import firebase_admin
-from threading import Lock
 from firebase_admin import credentials
 from firebase_admin import firestore
 
 #바뀐 docs가 저장되는 list
 changed_docs=list()
 
-#동기화를 위해 Lock 변수 설정
-lock = Lock()
+
 
 #파이어 스토어에 인증
 cred = credentials.Certificate("./senti-937c7-firebase-adminsdk-zi8lg-4f960817e0.json")
@@ -114,9 +112,5 @@ collection_watch = collection_ref.on_snapshot(on_snapshot)
 print("준비가 끝났다.")
 while(1):
     if(len(changed_docs)!=0):
-        lock.acquire()
-        try:
-            update(changed_docs.pop(0))
-        finally:
-            lock.release()
+        update(changed_docs.pop(0))
     
