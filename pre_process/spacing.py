@@ -42,4 +42,4 @@ print(data_test)
 
 #띄어쓰기 완료된 파일을 저장.
 data_train.to_csv('/content/drive/My Drive/하/ratings_spacing_train.txt', index=False, header=None, sep="\t")
-# data_test.to_csv('/content/drive/My Drive/하/ratings_spacing_test.txt', index=False, header=None, sep="\t")
+data_test.to_csv('/content/drive/My Drive/하/ratings_spacing_test.txt', index=False, header=None, sep="\t")
