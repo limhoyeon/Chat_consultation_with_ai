@@ -35,8 +35,7 @@
   ETRI에서 다운받을 수 있습니다.
 </p>
 
-<h3>/client_app</h3>
-<h3>/admin_app</h3>
+<h3>/client_app<br>/admin_app</h3>
 <p>
   React기반 웹페이지 소스코드입니다.
 </p>
