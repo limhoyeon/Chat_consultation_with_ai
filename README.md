@@ -1,5 +1,5 @@
 <h1>Chat_consultation_with_ai</h1>
-<h2>감성 분류 채팅 상담 프로그램</h2> <br>
+<h2>감성 분류 채팅 상담 프로그램 - 현재 서버를 닫아놓은 상태라 접속할 수 없습니다.</h2> <br>
 <ul><a href="https://senti-937c7.firebaseapp.com/login">Click to go to user web</a></ul>
 <ul><a href="https://admin-8e100.firebaseapp.com/login">Click to go to admin web</a></ul>
 <ul><a href="https://www.youtube.com/watch?v=XL6ClP2OJe8&feature=youtu.be">작동 영상</a></ul>
